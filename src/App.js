@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Photo from './components/Photo/Photo';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [active, setActive] = useState('photo')
