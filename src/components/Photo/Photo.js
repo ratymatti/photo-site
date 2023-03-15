@@ -8,7 +8,7 @@ function Photo() {
       {images.map((category, index) => (
         <div key={index}>
           <h3>{category.category}</h3>
-          <ImageCarousel images={category.images} />
+          <ImageCarousel images={category.images} category={category.category} />
         </div>
       ))}
     </div>
@@ -16,4 +16,3 @@ function Photo() {
 };
 
 export default Photo;
-

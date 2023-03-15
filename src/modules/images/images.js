@@ -2,8 +2,7 @@ const importAll = (context) => {
     return context.keys().map(context);
   };
   
-  const sportImages = importAll(require.context('./images/sport', false, /\.(png|jpe?g|svg)$/));
-  // const category2Images = importAll(require.context('./images/category2', false, /\.(png|jpe?g|svg)$/));
+  const sportImages = importAll(require.context('../../images/sport', false, /\.(png|jpe?g|svg)$/));
   
   const images = [
     {
