@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-function ImageCarousel({ images, category }) {
+function ImageCarousel(props) {
   return (
     <div>
-      <h3>{category}</h3>
+      <h3>{images.category}</h3>
       <Carousel>
         {images.map((image, index) => (
           <Carousel.Item key={index}>
