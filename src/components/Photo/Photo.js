@@ -1,13 +1,22 @@
 import React from 'react';
-import Sport from '../ImageCarousel/ImageCarousel';
-import './Photo.css';
+import ImageCarousel from '../ImageCarousel/ImageCarousel';
 
-export default function Photo() {
+
+function Photo() {
+  const categories = [
+    { name: 'Category 1', images: ['image1.jpg', 'image2.jpg', 'image3.jpg'] },
+    // { name: 'Category 2', images: ['image4.jpg', 'image5.jpg', 'image6.jpg'] },
+    // { name: 'Category 3', images: ['image7.jpg', 'image8.jpg', 'image9.jpg'] },
+  ];
+
   return (
-    <div className='photo'>
-        <p>photo</p>
-        <Sport />
+    <div>
+      {categories.map((category, index) => (
+        <ImageCarousel key={index} images={category.images} category={category.name} />
+      ))}
     </div>
-  )
+  );
 }
+
+export default Photo;
 
