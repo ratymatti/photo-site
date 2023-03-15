@@ -6,7 +6,7 @@ import Photo from './components/Photo/Photo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [active, setActive] = useState('photo')
+  const [active, setActive] = useState('photo');
 
   return (
     <div className="App">

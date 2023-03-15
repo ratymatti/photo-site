@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageCarousel from '../ImageCarousel/ImageCarousel';
-import images from '../../modules/images/images';
+import { images } from '../../modules/images/images';
 
 function Photo() {
   return (
@@ -16,3 +16,4 @@ function Photo() {
 };
 
 export default Photo;
+
