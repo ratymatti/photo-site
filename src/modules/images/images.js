@@ -1,20 +1,12 @@
-const images = {
-    Category1: [
-      'image1.jpg',
-      'image2.jpg',
-      'image3.jpg'
-    ],
-    Category2: [
-      'image4.jpg',
-      'image5.jpg',
-      'image6.jpg'
-    ],
-    Category3: [
-      'image7.jpg',
-      'image8.jpg',
-      'image9.jpg'
-    ]
+const importAll = (context) => {
+    return context.keys().map(context);
   };
   
-  export default images;
+  const category1Images = importAll(require.context('./images/category1', false, /\.(png|jpe?g|svg)$/));
+  const category2Images = importAll(require.context('./images/category2', false, /\.(png|jpe?g|svg)$/));
+  
+  export const images = [
+    category1Images,
+    category2Images,
+  ];
   
