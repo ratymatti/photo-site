@@ -1,5 +1,5 @@
 import React from 'react';
-import Sport from '../Sport/Sport';
+import Sport from '../ImageCarousel/ImageCarousel';
 import './Photo.css';
 
 export default function Photo() {
