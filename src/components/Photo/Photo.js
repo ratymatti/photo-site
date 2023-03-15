@@ -4,7 +4,7 @@ import  { images }  from '../../modules/images/images';
 
 function Photo() {
   return (
-    <div>
+    <div className='photo'>
       {images.map((category, index) => (
         <div key={index}>
           <h3>{category.category}</h3>

@@ -3,8 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function ImageCarousel(props) {
   const { images } = props;
+  
   return (
-    <div>
+    <div className='image-carousel'>
       <Carousel>
         {images.map((image, index) => (
           <Carousel.Item key={index}>
