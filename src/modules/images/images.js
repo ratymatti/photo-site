@@ -14,16 +14,7 @@ import flyfishing8 from '../../images/flyfishing-img/flyfishing8.jpg';
 
 export const images = [
   {
-    category: 'Sports',
-    images: [
-        sport1,
-        sport2,
-        sport3,
-        sport4
-    ]
-  },
-  {
-    category: 'Fishing',
+    category: 'Fly Fishing',
     images: [
         flyfishing1,
         flyfishing2,
@@ -33,6 +24,15 @@ export const images = [
         flyfishing6,
         flyfishing7,
         flyfishing8
+    ]
+  },
+  {
+    category: 'Sports',
+    images: [
+        sport1,
+        sport2,
+        sport3,
+        sport4
     ]
   }
 ];

@@ -1,9 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import './ImageCarousel.css';
 
 function ImageCarousel(props) {
   const { images } = props;
-  
+
   return (
     <div className='image-carousel'>
       <Carousel>

@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageCarousel from '../ImageCarousel/ImageCarousel';
 import  { images }  from '../../modules/images/images';
+import './Photo.css';
 
 function Photo() {
   return (

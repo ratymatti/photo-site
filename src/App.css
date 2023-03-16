@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-  border: 1px solid red;
   margin: 20px;
   width: 800px;
   min-height: 600px;
+  border: 1px solid darkgray;
+  padding: 10px;
 }
 
 .header {
-  border: 1px solid greenyellow;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -15,7 +15,8 @@
 }
 
 .header h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: white;
 }
 
 .header li {
@@ -26,7 +27,18 @@
 
 button {
   background: none;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+ul:hover button {
+  opacity: 0.2;
+}
+
+ul button:hover {
+  opacity: 1;
 }

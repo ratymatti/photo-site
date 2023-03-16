@@ -1,1 +1,9 @@
+.photo {
+    color: white;
+}
 
+.photo h3 {
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}

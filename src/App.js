@@ -16,7 +16,7 @@ function App() {
               <li><button onClick={() => setActive('about')}>ABOUT</button></li>
               <li><button onClick={() => setActive('contact')}>CONTACT</button></li>
         </ul>
-        <h1>Matti Räty</h1>    
+        <h1>MATTI RÄTY</h1>    
       </header>
       <div className='content'>
         {active === 'photo' && <Photo />}
