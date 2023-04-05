@@ -18,3 +18,6 @@ function Photo() {
 
 export default Photo;
 
+/**
+ * images imported and added in /modules/images.js
+ */
